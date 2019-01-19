@@ -25,11 +25,11 @@ private static void ScriptExited()
 }
 private static void Errors(object sender, DataReceivedEventArgs e)
 {
-			Console.WriteLine(e.Data);
+	Console.WriteLine(e.Data);
 }
 private static void Output(object sender, DataReceivedEventArgs e)
 {
-			Console.WriteLine(e.Data);
+	Console.WriteLine(e.Data);
 }
 
 ```
@@ -38,7 +38,7 @@ private static void Output(object sender, DataReceivedEventArgs e)
 /* Runs the scripts with normal privileges */
 
 //Default values for booleans are true and the default path is %TEMP% + "myrun.bat"
-void RunScript(String command, String path, Boolean redirectInput, Boolean redirectError,Boolean redirectOutput, 			Boolean deleteAfterExecute);
+void RunScript(String command, String path, Boolean redirectInput, Boolean redirectError,Boolean redirectOutput, Boolean deleteAfterExecute);
 void RunScript(String command);
 void RunScript(String command, Boolean deleteAfterExecute);
 void RunScript(String command, Boolean redirectInput, Boolean redirectError, Boolean redirectOutput);
