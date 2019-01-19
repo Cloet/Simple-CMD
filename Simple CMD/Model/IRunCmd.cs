@@ -100,7 +100,7 @@ namespace Simple_CMD.Model
 		/// <para>The path of this script is saved at %TEMP% and the .bat file is named myrun.bat</para>
 		/// </summary>
 		/// <param name="command"></param>
-		void RunScriptAdmin(string command);
+		void RunScriptAdmin(String command);
 
 		/// <summary>
 		/// Executes a simple cmd script with admin rights
@@ -108,7 +108,7 @@ namespace Simple_CMD.Model
 		/// </summary>
 		/// <param name="command"></param>
 		/// <param name="deleteAfterExecute"></param>
-		void RunScriptAdmin(string command, Boolean deleteAfterExecute);
+		void RunScriptAdmin(String command, Boolean deleteAfterExecute);
 
 	}
 }

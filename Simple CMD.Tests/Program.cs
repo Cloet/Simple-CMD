@@ -49,12 +49,6 @@ namespace Simple_CMD.Tests
 
 		}
 
-		private void simpleCommand(StringBuilder sb)
-		{
-
-		}
-
-
 		/* These methods are triggered by the corresponding events */
 		private static void ScriptExited()
 		{

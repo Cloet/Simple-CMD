@@ -242,7 +242,7 @@ namespace Simple_CMD.Model
 		/// <para>The path of this script is saved at %TEMP% and the .bat file is named myrun.bat</para>
 		/// </summary>
 		/// <param name="command"></param>
-		public void RunScriptAdmin(string command)
+		public void RunScriptAdmin(String command)
 		{
 			RunScriptAdmin(command, Path.GetTempPath() + "myrun.bat", true);
 		}
@@ -253,7 +253,7 @@ namespace Simple_CMD.Model
 		/// </summary>
 		/// <param name="command"></param>
 		/// <param name="deleteAfterExecute"></param>
-		public void RunScriptAdmin(string command, Boolean deleteAfterExecute)
+		public void RunScriptAdmin(String command, Boolean deleteAfterExecute)
 		{
 			RunScriptAdmin(command,Path.GetTempPath() + "myrun.bat",deleteAfterExecute);
 		}
