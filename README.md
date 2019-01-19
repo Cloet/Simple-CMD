@@ -48,6 +48,6 @@ void RunScript(String command, Boolean redirectInput, Boolean redirectError, Boo
 
 //Default path is %TEMP% + "myrun.bat" and deletes the file after executing on default.
 void RunScriptAdmin(String command, String path, Boolean deleteAfterExecute);
-void RunScriptAdmin(string command);
-void RunScriptAdmin(string command, Boolean deleteAfterExecute);
+void RunScriptAdmin(String command);
+void RunScriptAdmin(String command, Boolean deleteAfterExecute);
 ```
