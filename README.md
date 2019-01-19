@@ -25,11 +25,11 @@ private static void ScriptExited()
 }
 private static void Errors(object sender, DataReceivedEventArgs e)
 {
-			Console.WriteLine(e.Data);
+	Console.WriteLine(e.Data);
 }
 private static void Output(object sender, DataReceivedEventArgs e)
 {
-			Console.WriteLine(e.Data);
+	Console.WriteLine(e.Data);
 }
 
 ```
