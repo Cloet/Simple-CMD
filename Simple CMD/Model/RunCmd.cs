@@ -277,7 +277,7 @@ namespace Simple_CMD.Model
 					}
 				}
 			}
-			catch (Exception ex)
+			catch (Exception)
 			{
 				
 			}

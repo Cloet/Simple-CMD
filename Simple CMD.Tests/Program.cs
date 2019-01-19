@@ -36,6 +36,7 @@ namespace Simple_CMD.Tests
 
 			while (_running)
 			{
+				//
 			}
 
 			Console.WriteLine("Press enter to continue.");
